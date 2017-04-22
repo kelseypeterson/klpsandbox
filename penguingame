@@ -19,6 +19,7 @@ def stage1():
     
     def right_key():
         penguin1.move_right(20)
+        Here's a change in the right key... 
     stage.event_key("right", right_key)
     
     def up_key():
@@ -31,7 +32,7 @@ def stage1():
     
     def collision1(bird, tumblething):
         #bird = penguin.get_image_name() 
-        #tumblething = tumbleweed.get_image_name()
+        removing line about tumblething
         if bird == penguin1 and tumblething == tumbleweed:
             bird.go_to(-200, 0)
             bird.say("Ouch!")
