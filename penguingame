@@ -12,6 +12,7 @@ def stage1():
     stage.set_gravity(5)
     stage.enable_all_walls()
     stage.set_bounce(0)
+    Testing a new change added to stage1
     
     def left_key():
         penguin1.move_left(20)
@@ -99,3 +100,5 @@ def stage2():
 
 stage1()
 
+stage3
+Here is a brand new stage with some code and stuff
